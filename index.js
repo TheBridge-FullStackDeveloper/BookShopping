@@ -6,5 +6,6 @@ app.use(express.json())
 
 app.use("/books",require("./routes/books"))
 app.use("/genres",require("./routes/genres"))
+app.use("/users",require("./routes/users"))
 
 app.listen(PORT,()=> console.log(`Servidor levantado en el puerto ${PORT}`))
