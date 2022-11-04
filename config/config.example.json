@@ -4,7 +4,11 @@
     "password": "your password",
     "database": "your db name",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "credentials":{
+      "user": "tu correo",
+      "pass": "tu contra"
+    } 
   },
   "test": {
     "username": "root",
